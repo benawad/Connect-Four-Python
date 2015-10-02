@@ -10,7 +10,7 @@ class ConnectFour(object):
 		for row in self.board:
 			for section in row:
 				sBoard +=  "( %s )" % section
-			sBoard += '\n-----------------------------------\n'
+			sBoard += '\n%---------------------------------%\n'
 
 		sBoard += '  0    1    2    3    4    5    6'
 		return sBoard
